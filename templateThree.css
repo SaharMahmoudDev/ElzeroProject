@@ -45,6 +45,8 @@ body {
 :root {
     --main-color: #1787e0;
     --secondary-color: #2196f3;
+    /* --main-color:#2196f3;
+    --secondary-color:#1787e0; */
     --backg-color: #fafafa;
     --text-color:#666;
     --back-bord: #ececec;
@@ -302,6 +304,7 @@ header .container .main ul li:nth-child(1) {
     padding-bottom: var(--main-padding-b, 30px);
     padding-top: var(--main-padding-t, 30px);
     min-height: calc(100vh - 110px);
+    min-height: calc(100vh - 7rem);
     display: flex;
     justify-content: center;
     align-items: center;
