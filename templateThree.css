@@ -166,6 +166,7 @@ header .container nav {
 }
 header .container h2 {
     color: var(--main-color, #1787e0);
+    padding: .5rem 0;
     font-size: 1.5rem;
     text-align: center;
     text-transform: capitalize;
@@ -390,6 +391,10 @@ header .container .main ul li:nth-child(1) {
     text-transform: capitalize;
     letter-spacing: -.06rem;
 }
+@media (max-width: 767.98px) {
+    .landing .container .section h2 {
+        font-size: 1.5rem;
+    }}
 .landing .container .section p {
     line-height: 1.7;
     color: var(--text-color, #666);
@@ -400,7 +405,7 @@ header .container .main ul li:nth-child(1) {
     .landing .container .section p {
         margin-left: auto;
         margin-right: auto;
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
     }
 }
 .landing .angle {
@@ -445,7 +450,7 @@ header .container .main ul li:nth-child(1) {
 .articles {
     padding-bottom: var(--main-padding-b, 30px);
     padding-top: var(--main-padding-t, 30px);
-    margin-bottom: var(--main-margin-b, 80px);
+    /* margin-bottom: var(--main-margin-b, 80px); */
 }
 .articles .container {
     background-color: white;
@@ -1219,16 +1224,21 @@ margin-bottom: 2rem;
         align-items: center;
         background-color: #f6f5f5;
         margin: 0 auto;
-        padding: 1.8rem;
         gap: 20px;
         border-radius: 3rem 3rem;
         width: 600px;
         z-index: 100;
 }
+@media (min-width: 768px) {
+    .latest .container form {
+        padding: 1.8rem;
+    }
+}
 @media (max-width: 767px) {
     .latest .container form {
         flex-direction: column;
         width: 100%;
+        padding: 1rem;
         border-radius: 0px;
     }
 }
