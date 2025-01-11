@@ -5,6 +5,7 @@
     list-style: none;
     text-decoration: none;
     outline: none;
+    user-select: none;
 }
 img{
     max-width: 100%;
@@ -1291,11 +1292,12 @@ margin-bottom: 2rem;
 }
 
 .latest .container .box .counters div span:first-of-type{
-    padding: .6rem 0.25rem .7rem;
+    padding: .6rem 0.4rem .7rem;
     color: var(--secondary-color,#2196f3);
     display: block;
     font-size: 2rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .latest .container .box .counters div :last-child {
