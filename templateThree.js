@@ -22,17 +22,14 @@ let card = document.querySelector(".klo");
 document.addEventListener('DOMContentLoaded',()=>{
     fullWidthTargetPercentage();
     decreaseCounter();
-    increaseCounter();
+    observ.observe(card);
 })
 
-//section skills
-
+// section skills
 function fullWidthTargetPercentage() {
     window.addEventListener('scroll',()=>{
-    console.log( skills.getBoundingClientRect().top,skills.getBoundingClientRect().bottom,window.innerHeight,window.scrollY,skills.getBoundingClientRect().height);
                 if ( skills.getBoundingClientRect().top>(-window.innerHeight / 3)&& skills.getBoundingClientRect().top<(window.innerHeight / 2) ){
             fullWidthTarget.forEach(element=>{
-                console.log(element.dataset.n)
                 element.style.width=`${element.dataset.n}%`;
             })
             numsTarget.forEach(element=>{
@@ -73,31 +70,37 @@ function decreaseCounter() {
 }
 
 //section stats
-function getDataNums(element) {
-    let goal = element.dataset.num;
+
+function getDataNums() {
+    if(isCount) return;
+    isCount=true;
+    dataNum.forEach((element,ind,arr) =>{
+    let  goal = parseInt(element.dataset.num);
     let counter = setInterval(() => {
-        element.textContent++;
-        if (element.textContent == goal) {
+        if (element.textContent >= goal) {
             clearInterval(counter);
         }
-    }, 3000 / goal);
-}
-
-function increaseCounter() {
-        window.addEventListener('scroll',()=>{
-    if ( card.getBoundingClientRect().top>(-window.innerHeight / 3)&& card.getBoundingClientRect().top<(window.innerHeight / 2) ){
-        if (isCount) {
-            dataNum.forEach((element) => getDataNums(element));
+        else{
+             element.textContent++; 
         }
-        isCount = false;
-    }
-    if ( !(card.getBoundingClientRect().top<skills.getBoundingClientRect().height&& card.getBoundingClientRect().top>-card.getBoundingClientRect().height)){
-        dataNum.forEach((element) =>{
-            element.textContent=0});
-        isCount=true;
-    }
+
+    }, 3000 / goal );
 })
 }
-
-
+function resetCounter(){
+    dataNum.forEach((element) =>{
+    element.textContent=0;
+    isCount=false;
+    })
+}
+const observ=new IntersectionObserver((entries)=>{
+entries.forEach((entry)=>{
+    if(entry.isIntersecting){
+        getDataNums();
+    }
+    else{
+        resetCounter();
+    }
+})
+},{threshold:.25});
 
