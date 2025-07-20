@@ -27,7 +27,7 @@ Created by Nova Quill
 
 Feel free to reach out:
 
-GitHub:[@nova-quill](jjkjiopo)
+GitHub:[@nova-quill](https://github.com/nova-quill)
 
 Email:[NovaQuill.com](elzerossss.gmail.com)
 
