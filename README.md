@@ -29,7 +29,7 @@ Feel free to reach out:
 
 GitHub:[@nova-quill](https://github.com/nova-quill)
 
-Email:[NovaQuill.com](elzerossss.gmail.com)
+Email:[NovaQuill.com](elzerossss@gmail.com)
 
 
  
