@@ -20,7 +20,7 @@ This template is ideal for showcasing services or portfolios with a clean, minim
 ##  Preview
 
 ## Live Demo
-[View Live on Netlify](https://template-three-example.netlify.app)
+[View Live on Netlify](https://projectelzero.netlify.app)
 
 ## Contact
 Created by Nova Quill 
