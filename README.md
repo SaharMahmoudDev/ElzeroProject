@@ -27,7 +27,10 @@ Created by Nova Quill
 
 Feel free to reach out:
 
-GitHub:[@nova-quill](https://github.com/nova-quill)
+GitHub: [@nova-quill on github](https://github.com/nova-quill)
+
+LinkedIn: [@nova-quill on LinkedIn](https://www.linkedin.com/in/nova-quill)
+
 
 
 
