@@ -23,7 +23,7 @@ This template is ideal for showcasing services or portfolios with a clean, minim
 [View Live on Netlify](https://projectelzero.netlify.app)
 
 ## Contact
-Created by Nova Quill 
+Created by Sahar Mahmoud
 
 Feel free to reach out:
 
