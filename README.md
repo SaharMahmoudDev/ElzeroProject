@@ -1,5 +1,4 @@
-# Template Three
-
+# Elzero-Inspired Template
 A modern and responsive landing page template built using **pure HTML5** , **CSS3** and **JAVASCRIPT**.
 This template is ideal for showcasing services or portfolios with a clean, minimalistic design.
 
@@ -20,7 +19,7 @@ This template is ideal for showcasing services or portfolios with a clean, minim
 ##  Preview
 
 ## Live Demo
-[View Live on Netlify](https://projectelzero.netlify.app)
+[View Live Demo](https://template-three.pages.dev/)
 
 ## Contact
 Created by Sahar Mahmoud
