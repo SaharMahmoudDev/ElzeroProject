@@ -2,6 +2,8 @@
 A modern and responsive landing page template built using **pure HTML5** , **CSS3** and **JAVASCRIPT**.
 This template is ideal for showcasing services or portfolios with a clean, minimalistic design.
 
+![Elzero-inspired template preview](https://raw.githubusercontent.com/SaharMahmoudDev/SaharMahmoudDev.github.io/main/images/elzero-light.jpg)
+
 ## Technologies Used
 - HTML5
 - CSS3
